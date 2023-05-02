@@ -2,7 +2,7 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import { AiFillAlert, AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
-//import Image from "next/image";
+//import img from "next/img";
 import devjordan from "../public/avatar1.png";
 import design from '../public/design.png';
 import code from '../public/code.png';
@@ -45,8 +45,8 @@ export default function Home() {
             
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500  rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            {/* image goes here*/}
-            <img src={devjordan} layout="fill" objectFit="cover"></img>
+            {/* img goes here*/}
+            <img src={devjordan} layout="fill" objectfit="cover"></img>
           </div>
           </section>
           
@@ -54,9 +54,9 @@ export default function Home() {
           <section className="min-h-screen">
             <div className="text-center p-10 ">
               <h3 className="text-3xl py-1 dark:text-teal-500">Just a bit about me</h3>
-              <p className="text-medium py-2 leading-8 text-gray-800 dark:text-gray-300">Well, it all started when I was a kid. My Playstation 2 wouldn&apost function so I was upset. I couldn&apost afford to
+              <p className="text-medium py-2 leading-8 text-gray-800 dark:text-gray-300">Well, it all started when I was a kid. My Playstation 2 wouldn&apos;t function so I was upset. I couldn&apos;t afford to
                replace it, so I had to take matters into my own hands. I disassembled the console, learned the design of the hardware, and reassembled it.
-              what I learned, was that I love <span className="text-teal-500">technology</span>, and if I keep pushing myself to learn, I can accomplish what I need to do. Pretty soon, I was fixing my friend&aposs consoles and
+              what I learned, was that I love <span className="text-teal-500">technology</span>, and if I keep pushing myself to learn, I can accomplish what I need to do. Pretty soon, I was fixing my friend&apos;s consoles and
                later it blossomed into building my own computers and learning to <span className="text-teal-500">code</span>.</p>
               <p className="text-medium py-2 leading-8 text-gray-800 dark:text-gray-300">Knowledge has been my pursuit in life. Being a single Dad, I needed to prove to my kids that education can expand
               the opportunites to seize <span className="text-teal-500">life-long memories</span>. I did this by obtaining my Bachelors of Science, majoring in <span className="text-teal-500">Computer Science</span>.
@@ -69,8 +69,8 @@ export default function Home() {
                 <div className="text-center"><img src={code} width="100" height="100"></img></div>
                 <h3 className="text-2xl font-medium pt-8 pb-2 py-1">Person-Centered Coding</h3>
                 {/* add an animation around end-user later */}
-                <p>Finally, a dude that cares about the <span className="text-teal-500">end-user</span>. Modern design is not just about the look, but also the functionality and practicality of it&aposs surrounding environment.
-                The end product should visually be appealing and be so usable that even a caveman could use it (Give me a time machine, I&aposll prove it!).</p>
+                <p>Finally, a dude that cares about the <span className="text-teal-500">end-user</span>. Modern design is not just about the look, but also the functionality and practicality of it&apos;s surrounding environment.
+                The end product should visually be appealing and be so usable that even a caveman could use it (Give me a time machine, I&apos;ll prove it!).</p>
                 <h4 className="text-lg py-1 leading-8 text-center">Tools of the Trade</h4>
                 <ul className="flex justify-center gap-4">
                   <li className="text-gray-800 py-1">React</li>
@@ -87,11 +87,11 @@ export default function Home() {
                 <div className=""><img src={design} width="100" height="100"></img></div>
                 <h3 className="text-2xl font-medium pt-8 pb-2 py-1">The Pursuit of Knowledge</h3>
                 {/* add an animation around end-user later */}
-                <p>Being the <span className="text-teal-500">life-long learner</span> that I am, learning doesn&apost just stop at college.
+                <p>Being the <span className="text-teal-500">life-long learner</span> that I am, learning doesn&apos;t just stop at college.
                 Although I have my bachelors degree, I am always looking for new ways to expand my knowledge. I am currently learning about Game Development
                 using the <span className="text-teal-500">Phaser 3 Framework</span>. I also just so happen to be looking to start my Masters program in Computer Science in the near future.
                 </p>
-                <h4 className="text-lg py-1 leading-8 text-center">Bachelor&aposs of Science, Computer Science</h4>
+                <h4 className="text-lg py-1 leading-8 text-center">Bachelor&apos;s of Science, Computer Science</h4>
                 <ul>
                   <li className="text-gray-800 py-1">Weber State University, Utah</li>
                   <li className="text-gray-800 py-1">Graduated 2023</li>
@@ -122,7 +122,7 @@ export default function Home() {
             <section className="min-h-screen">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-500">
                 <h3 className="text-3xl dark:bg-slate-500 dark:text-teal-500">The Portfolio</h3>
-                <p className=" dark:bg-slate-500">It looks like you made it to the end. I&aposd give you a high-five, but I don&apost want to break my monitor.
+                <p className=" dark:bg-slate-500">It looks like you made it to the end. I&apos;d give you a high-five, but I don&apos;t want to break my monitor.
                   Instead, take a look at some of my work and know that I owe you a high-five.</p>
               </div>
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
