@@ -4,4 +4,9 @@ const nextConfig = {
   //reactStrictMode: true, // uncomment for node testing locally
 }
 
-module.exports = nextConfig
+module.exports = {
+  nextConfig,
+  images: {
+    unoptimized: true,
+  },
+}

@@ -2,7 +2,7 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import { AiFillAlert, AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
-//import img from "next/img";
+import Image from "next/image";
 import devjordan from "../public/avatar1.png";
 import design from '../public/design.png';
 import code from '../public/code.png';
@@ -45,8 +45,8 @@ export default function Home() {
             
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500  rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            {/* img goes here*/}
-            <img src={devjordan} layout="fill" objectfit="cover"></img>
+            {/* Image goes here*/}
+            <Image src={devjordan} layout="fill" objectfit="cover"></Image>
           </div>
           </section>
           
@@ -66,7 +66,7 @@ export default function Home() {
               {/* cards */}
               <div className="lg:flex gap-5">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-500">
-                <div className="text-center"><img src={code} width="100" height="100"></img></div>
+                <div className="text-center"><Image src={code} width="100" height="100"></Image></div>
                 <h3 className="text-2xl font-medium pt-8 pb-2 py-1">Person-Centered Coding</h3>
                 {/* add an animation around end-user later */}
                 <p>Finally, a dude that cares about the <span className="text-teal-500">end-user</span>. Modern design is not just about the look, but also the functionality and practicality of it&apos;s surrounding environment.
@@ -84,7 +84,7 @@ export default function Home() {
               
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-500">
-                <div className=""><img src={design} width="100" height="100"></img></div>
+                <div className=""><Image src={design} width="100" height="100"></Image></div>
                 <h3 className="text-2xl font-medium pt-8 pb-2 py-1">The Pursuit of Knowledge</h3>
                 {/* add an animation around end-user later */}
                 <p>Being the <span className="text-teal-500">life-long learner</span> that I am, learning doesn&apos;t just stop at college.
@@ -99,7 +99,7 @@ export default function Home() {
                 
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-500">
-                <div className=""><img src={consulting} width="100" height="100"></img></div>
+                <div className=""><Image src={consulting} width="100" height="100"></Image></div>
                 <h3 className="text-2xl font-medium pt-8 pb-2 py-1">Expert in Management and Communication</h3>
                 {/* add an animation around end-user later */}
                 <p>One of the benefits of working with me is that I have an extensive background in management. This translates
@@ -127,16 +127,16 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
               <div className="basis-1/3 flex-1">
-                <img src={web1} className="rounded-lg object-cover" width="100" height="100" layout="responsive"></img>
+                <Image src={web1} className="rounded-lg object-cover" width="100" height="100" layout="responsive"></Image>
                 </div>
                 <div className="basis-1/3 flex-1"> 
-                <img src={web2} className="rounded-lg object-cover" width="100" height="100" layout="responsive"></img>
+                <Image src={web2} className="rounded-lg object-cover" width="100" height="100" layout="responsive"></Image>
                 </div >
                 <div className="basis-1/3 flex-1"> 
-                <img src={web3} className="rounded-lg object-cover" width="100" height="100" layout="responsive"></img>
+                <Image src={web3} className="rounded-lg object-cover" width="100" height="100" layout="responsive"></Image>
                 </div >
                 <div className="basis-1/3 flex-1"> 
-                <img src={web4} className="rounded-lg object-cover" width="100" height="100" layout="responsive"></img>
+                <Image src={web4} className="rounded-lg object-cover" width="100" height="100" layout="responsive"></Image>
                 </div >
               </div>
 
