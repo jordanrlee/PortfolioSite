@@ -13,3 +13,5 @@ A React website made by Jordan, for Jordan.
 **Hosting:**
 
 [Amazon Web Hosting](https://aws.amazon.com/websites/) AWS Site Host
+[Amazon S3 Bucket]
+[Amazon Route 53]
