@@ -1,5 +1,5 @@
 # My Portfolio Site
-A React website made by Jordan, For Jordan.
+A React website made by Jordan, for Jordan.
 
 **Packages Used:**
 
