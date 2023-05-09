@@ -1,5 +1,5 @@
 # My Portfolio Site
-A React website made by Jordan, For Jordan.
+A React website made by Jordan, for Jordan.
 
 **Packages Used:**
 
@@ -11,5 +11,6 @@ A React website made by Jordan, For Jordan.
 * [React Router](https://reactrouter.com/en/main/start/overview) for Routing
 
 **Hosting:**
+* [Amazon S3 Bucket](https://aws.amazon.com/s3/) AWS Cloud Storage
+* [Amazon Route 53](https://aws.amazon.com/route53/) AWS Routing and Domain 
 
-[Amazon Web Hosting](https://aws.amazon.com/websites/) AWS Site Host
