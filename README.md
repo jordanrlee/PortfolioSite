@@ -11,6 +11,6 @@ A React website made by Jordan, for Jordan.
 * [React Router](https://reactrouter.com/en/main/start/overview) for Routing
 
 **Hosting:**
-* [Amazon S3 Bucket](https://aws.amazon.com/s3/) AWS S3 Bucket
-* [Amazon Route 53](https://aws.amazon.com/route53/) AWS Route 53
+* [Amazon S3 Bucket](https://aws.amazon.com/s3/) AWS Cloud Storage
+* [Amazon Route 53](https://aws.amazon.com/route53/) AWS Routing and Domain 
 
