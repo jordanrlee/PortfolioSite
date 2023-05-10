@@ -212,7 +212,7 @@ function getDynamicProps(fetchPriority) {
 const ImageElement = /*#__PURE__*/ (0, _react.forwardRef)((param, forwardedRef)=>{
     let { imgAttributes , heightInt , widthInt , qualityInt , className , imgStyle , blurStyle , isLazy , fetchPriority , fill , placeholder , loading , srcString , config , unoptimized , loader , onLoadRef , onLoadingCompleteRef , setBlurComplete , setShowAltText , onLoad , onError , ...rest } = param;
     loading = isLazy ? "lazy" : loading;
-    return /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/ _react.default.createElement("img", {
+    return /*#__PURE__*/ _react.default.createElement("img", {
         ...rest,
         ...getDynamicProps(fetchPriority),
         loading: loading,
@@ -273,7 +273,7 @@ const ImageElement = /*#__PURE__*/ (0, _react.forwardRef)((param, forwardedRef)=
                 onError(event);
             }
         }
-    }));
+    });
 });
 const Image = /*#__PURE__*/ (0, _react.forwardRef)((param, forwardedRef)=>{
     let { src , sizes , unoptimized =false , priority =false , loading , className , quality , width , height , fill , style , onLoad , onLoadingComplete , placeholder ="empty" , blurDataURL , fetchPriority , layout , objectFit , objectPosition , lazyBoundary , lazyRoot , ...all } = param;
